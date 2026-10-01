@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A handmade Teachers' Day digital scrapbook card for Sir Randy.">
+  <title>Happy Teachers' Day, Sir Randy!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <main class="scene">
+    <section class="scrapbook" id="scrapbook">
+
+      <!-- Decorative scrapbook objects -->
+      <div class="paper-piece piece-one" aria-hidden="true"></div>
+      <div class="paper-piece piece-two" aria-hidden="true"></div>
+
+      <div class="doodle leaf leaf-one" aria-hidden="true">❧</div>
+      <div class="doodle leaf leaf-two" aria-hidden="true">❧</div>
+      <div class="doodle star star-one" aria-hidden="true">✦</div>
+      <div class="doodle star star-two" aria-hidden="true">✧</div>
+      <div class="doodle heart heart-one" aria-hidden="true">♥</div>
+      <div class="doodle flower flower-one" aria-hidden="true">✿</div>
+      <div class="doodle flower flower-two" aria-hidden="true">❀</div>
+
+      <!-- COVER -->
+      <section class="cover" id="cover">
+        <div class="cover-paper back-paper"></div>
+        <div class="cover-paper middle-paper"></div>
+
+        <div class="cover-paper front-paper">
+          <div class="washi washi-cover"></div>
+          <div class="metal-clip clip-cover" aria-hidden="true"></div>
+          <button class="push-pin pin-cover" id="coverPin" type="button" title="Click the pin">
+            <span></span>
+          </button>
+
+          <div class="school-icons" aria-hidden="true">
+            <span class="book">▱</span>
+            <span class="pencil">✎</span>
+            <span class="tiny-star">✦</span>
+          </div>
+
+          <p class="small-label">A LITTLE MESSAGE OF APPRECIATION 💛</p>
+
+          <h1>
+            Happy Teachers’ Day,
+            <span>Sir Randy!</span>
+          </h1>
+
+          <p class="cover-handwriting">A little note, made with gratitude.</p>
+
+          <div class="cover-photo-mini">
+            <!-- The uploaded teacher photo is included in this project as teacher.jpg. -->
+            <!-- Replace "teacher.jpg" with another photo filename if you want to use a different picture. -->
+            <img src="teacher.jpg" alt="Sir Randy">
+            <div class="mini-tape"></div>
+          </div>
+
+          <button class="open-button" id="openButton" type="button" aria-controls="messageSection">
+            <span>Open Message</span> 💌
+          </button>
+
+          <p class="tap-note">open the little paper note ✦</p>
+        </div>
+      </section>
+
+      <!-- MESSAGE -->
+      <section class="message-section" id="messageSection" aria-hidden="true">
+        <div class="top-label">
+          <span>TEACHERS’ DAY • 2026</span>
+          <span class="line"></span>
+          <span>01</span>
+        </div>
+
+        <div class="message-layout">
+
+          <!-- PHOTO -->
+          <figure class="polaroid" id="photoCard">
+            <div class="washi photo-washi"></div>
+            <div class="metal-clip photo-clip" aria-hidden="true"></div>
+
+            <div class="polaroid-image">
+              <!-- Teacher photo: teacher.jpg is already included in the project folder. -->
+              <img src="teacher.jpg" alt="Sir Randy">
+              <div class="photo-fallback">
+                <span>📷</span>
+                <small>Place the teacher photo here<br>as <b>teacher.jpg</b></small>
+              </div>
+            </div>
+
+            <figcaption>
+              <strong>Sir Randy</strong>
+              <span>Thank you, Sir! ♡</span>
+            </figcaption>
+          </figure>
+
+          <!-- MAIN MESSAGE -->
+          <article class="message-paper" id="messagePaper">
+            <div class="paper-back paper-back-a"></div>
+            <div class="paper-back paper-back-b"></div>
+
+            <div class="paper-content">
+              <div class="paper-corner"></div>
+
+              <button class="push-pin message-pin" id="messagePin" type="button" title="Click the push pin">
+                <span></span>
+              </button>
+
+              <div class="metal-clip message-clip" id="messageClip" title="Click the paper clip"></div>
+              <div class="washi message-washi"></div>
+
+              <p class="dear">Dear Sir Randy,</p>
+
+              <h2>Happy Teachers’ Day!</h2>
+
+              <!-- IMPORTANT: The message below is kept exactly as provided by the student. -->
+              <div class="main-message">
+                <p>Happy Teachers’ Day, Sir Randy! Thank you for your kindness and for everything you do for us. I really appreciate how comfortable you make us feel in your class.</p>
+
+                <p>I never feel too pressured because you always greet us with a smile and you're always approachable. It makes your class feel like a place where we can learn without being afraid of making mistakes.</p>
+
+                <p>Thank you for being patient, kind, and easy to talk to. I’m really grateful to have you as one of my teachers.</p>
+              </div>
+
+              <div class="message-signature">
+                <span>With appreciation,</span>
+                <strong>Marlon ♡</strong>
+              </div>
+
+              <div class="tiny-doodle">✎ ✦ ♡</div>
+            </div>
+          </article>
+
+          <!-- QUOTE -->
+          <aside class="quote-note">
+            <div class="quote-tape"></div>
+            <span class="quote-mark">“</span>
+            <p>A good teacher leaves a lasting mark, not just on a notebook, but in a student's heart.</p>
+            <span class="quote-mark quote-end">”</span>
+            <small>— a little reminder</small>
+          </aside>
+
+          <!-- DECORATIVE NOTE -->
+          <aside class="sticky-note">
+            <button class="push-pin sticky-pin" type="button" title="Click the note pin"><span></span></button>
+            <p>You make learning<br>feel comfortable. ♡</p>
+            <small>— thank you, Sir!</small>
+          </aside>
+        </div>
+
+        <div class="bottom-actions">
+          <p>Made like a little scrapbook, with a lot of appreciation.</p>
+          <div class="actions">
+            <button class="replay-button" id="replayButton" type="button">Replay ✨</button>
+            <button class="close-button" id="closeButton" type="button">Close Note ↩</button>
+          </div>
+        </div>
+
+        <div class="final-thanks" id="finalThanks">Thank You, Sir Randy! ♡</div>
+      </section>
+    </section>
+  </main>
+
+  <div class="celebration" id="celebration" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
